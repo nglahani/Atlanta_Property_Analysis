@@ -1,4 +1,4 @@
-# real_estate_growth_analysis
+# Atlanta Property Analysis
 
 The goal of this project was to create a real estate valuation tool that properly assessed home values as well as a given home’s unique features in the city of Atlanta, GA. We looked to cluster homes in Atlanta to create groups of housing with similar traits (i.e. home type, number of floors, proximity to city center) in order to create more accurate valuations through segmentation. In addition to our main deliverable of clustering home types, we our model to identified the most important features of a house to look at when valuing a home. 
 
