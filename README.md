@@ -1,9 +1,11 @@
 # Atlanta Property Analysis
 
-The goal of this project was to create a real estate valuation tool that properly assessed home values as well as a given home’s unique features in the city of Atlanta, GA. We looked to cluster homes in Atlanta to create groups of housing with similar traits (i.e. home type, number of floors, proximity to city center) in order to create more accurate valuations through segmentation. In addition to our main deliverable of clustering home types, we our model to identified the most important features of a house to look at when valuing a home. 
+This project aimed to develop an advanced real estate valuation tool tailored for assessing home values and unique features in Atlanta, GA. By leveraging AI and Machine Learning, we sought to accurately cluster homes based on similar characteristics (e.g., home type, number of floors, proximity to city center) to enhance valuation precision through segmentation.
 
-The following property features were determined to be significant when valuing a home in Atlanta, Georgia: **number of bedrooms, square footage, year built, number of bathrooms, latitude, number of floors, whether there is a fireplace, whether central heating is used in the property, whether a heat pump is used in the property, whether the exterior of the property is brick, whether the garage is attached, whether the architecture of the property is traditional, and the tax assessed values of the property in 2019, 2020 and 2021**.
+Our approach employed three distinct clustering algorithms—**K-Means**, **Spectral Clustering**, and **Gaussian Mixture Models**—to segment homes effectively. The Gaussian Mixture Model proved to be the most effective, identifying five distinct clusters of homes with unique traits. Additionally, **Principal Component Analysis (PCA)** was used for dimensionality reduction and visualization, aiding in the identification of significant patterns within the data.
 
-For comprehensive results of our entire analysis, please visit **\ISyE6740_Final_Project.pdf** in this repository
+Feature selection was performed using **LASSO regression** with cross-validation, which allowed us to isolate the most critical features influencing home values. The identified key features included the number of bedrooms, square footage, year built, number of bathrooms, latitude, number of floors, the presence of a fireplace, type of heating system, exterior material, and tax assessed values from recent years.
 
-Collaborators: Niko Lahanis, Brendan Danyliuk, Luolin Shao
+For a comprehensive overview of our methodology and findings, please refer to the full report available in **\ISyE6740_Final_Project.pdf** within this repository.
+
+**Collaborators:** Nikolos Lahanis, Brendan Danyliuk, Luolin Shao
